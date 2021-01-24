@@ -1,0 +1,43 @@
+/* .cards-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+} */
+.cards-container > img {
+  border-radius: 8px;
+  margin: "50px";
+  background-color: "#454a46";
+  cursor: pointer;
+  border: 3px solid transparent;
+  transform-origin: center right;
+  width: 120px;
+}
+.resetButton {
+  margin: 20px auto;
+  padding: 10px 20px;
+  display: block;
+  background: radial-gradient(yellow, orange);
+  color: black;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: none;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+/* .invisible {
+  transform: translateX(-100%) rotateY(-180deg);
+} */
+.player-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spieler1:hover {
+  border: 3px solid lightgreen;
+}
+
+.spieler2:hover {
+  border: 3px solid orange;
+}
