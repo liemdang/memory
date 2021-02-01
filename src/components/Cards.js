@@ -94,6 +94,7 @@ const Cards = ({amount, setPlayerTurn, incrementScore1, incrementScore2, resetSc
                     }
             }, 2000)
     }
+    
     function openFirstCard(e, cardNumber, cardId, imageUrl) {
         e.target.src = imageUrl
         e.target.classList.add("front")
