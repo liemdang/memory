@@ -40,7 +40,7 @@ function App() {
       <form onSubmit={handleSubmit}>
         <label htmlFor="cardNumber">{!disableSelect ? "Wähle die Anzahl der Kartenpaare: " : "Anzahl der Kartenpaare:"}</label>
         <select value={selectNumber} onChange={handleChange} id="cardNumber" disabled={disableSelect} name="cardNumber" form="carform">
-          <option style={{display: "none"}} selected>Anzahl</option>
+          <option style={{display: "none"}}>Anzahl</option>
           <option value="8">8</option>
           <option value="12">12</option>
           <option value="16">16</option>
